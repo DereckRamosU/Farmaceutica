@@ -1,0 +1,27 @@
+<html>
+    <title>Formulario de Compra</title>
+	<head>
+		<center><h1>Formulario de Compra - Farmeaceutica Virtual Ramos</h1>
+		<h1>Rellene el siguiente formulario para proceder la compra</h1></center>
+	</head>
+	<body>
+		<form>
+			<body background='fondo.png'></body>
+			<div class="seccion">
+				<h2>Datos del Comprador</h2>
+					<p>Nombre y Apellido <input type="text" name="nombre" /></p>
+					<p>Cédula <input type="text" name="apellido" /></p>
+				<h2>Tipo de Entrega:</h2>
+					<p><input type="radio" name="sexo" value="hombre" />Retiro en Sucursal</p>
+					<p><input type="radio" name="sexo" value="mujer" />Delivery</p>  
+				<h2>Ingresar sucursal para retiro.</h2>
+					<p><textarea  name="descripcion">Sucursal</textarea>
+				<h2>En caso de Delivery, su dirección.</h2>
+					<p><textarea  name="descripcion">Dirección</textarea>      
+			</div>
+		</form>
+			<form action="FacturaFarmaceuticaRamos.html">
+			<input type="submit" value="Facturación" />
+		</form>
+	</body>
+</html>
